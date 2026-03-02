@@ -103,17 +103,17 @@ function generateInvoiceHTML(data) {
             
             <!-- Header -->
             <div class="inv-header-row">
-                <div style="display: flex; align-items: center; gap: 10px;">
-                    <div style="display: flex; flex-direction: column; align-items: center;">
-                        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="50" cy="20" r="10" fill="#009966"/>
-                            <circle cx="20" cy="50" r="10" fill="#009966"/>
-                            <rect x="20" y="46" width="60" height="8" fill="black"/>
-                            <circle cx="80" cy="50" r="10" fill="#009966"/>
-                            <circle cx="50" cy="80" r="10" fill="#009966"/>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="45" width="60" height="10" fill="black"/>
+                            <circle cx="50" cy="20" r="13" fill="#00A36C"/>
+                            <circle cx="20" cy="50" r="13" fill="#00A36C"/>
+                            <circle cx="80" cy="50" r="13" fill="#00A36C"/>
+                            <circle cx="50" cy="80" r="13" fill="#00A36C"/>
                         </svg>
-                        <div style="font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; margin-top: -5px; color: #000;">
-                            <span style="color: #009966;">Pro</span>Hostix
+                        <div style="font-family: 'Inter', sans-serif; font-weight: 800; font-size: 20px; color: #000; letter-spacing: -0.5px;">
+                            <span style="color: #00A36C;">Pro</span>Hostix
                         </div>
                     </div>
                     <div>
